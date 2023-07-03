@@ -97,8 +97,7 @@ body {
   background-color: #4d5ae5;
   color: #fff;
 
-  transition: bgc 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-btn:hover,
@@ -567,10 +566,9 @@ body {
   color: #4d5ae5;
   background-color: #f4f4fd;
 
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    bgc 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filters-list {
@@ -582,7 +580,7 @@ body {
 }
 
 .filter-btn:hover {
-  background-color: var(--ocean, #404bbf);
+  background: var(--ocean, #404bbf);
   color: #ffffff;
   border: 1px solid transparent;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
