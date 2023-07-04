@@ -261,19 +261,20 @@ body {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
-  width: 48px;
+  width: 66px;
   height: 4px;
+  bottom: -1px;
 }
 
 .menu-link-main::after {
   content: '';
   position: absolute;
   left: 0;
-  bottom: -1px;
+  bottom: -2.5px;
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
-  width: 48px;
+  width: 48.02px;
   height: 4px;
 }
 
